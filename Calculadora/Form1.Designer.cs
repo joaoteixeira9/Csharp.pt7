@@ -52,6 +52,33 @@
             this.btnModulo = new System.Windows.Forms.Button();
             this.btnExponenciacao = new System.Windows.Forms.Button();
             this.btnRaizQuadrada = new System.Windows.Forms.Button();
+            this.txtBoxV1 = new System.Windows.Forms.TextBox();
+            this.txtBoxV2 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtBoxV3 = new System.Windows.Forms.TextBox();
+            this.btnCalcV = new System.Windows.Forms.Button();
+            this.txtBoxV4 = new System.Windows.Forms.TextBox();
+            this.txtBoxV5 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtBoxV6 = new System.Windows.Forms.TextBox();
+            this.txtBoxV9 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtBoxV8 = new System.Windows.Forms.TextBox();
+            this.txtBoxV7 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.numDeMetros = new System.Windows.Forms.NumericUpDown();
+            this.labelCircunferencia = new System.Windows.Forms.Label();
+            this.btnCalcCircunferencia = new System.Windows.Forms.Button();
+            this.par1 = new System.Windows.Forms.TextBox();
+            this.par2 = new System.Windows.Forms.TextBox();
+            this.par3 = new System.Windows.Forms.TextBox();
+            this.par4 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBoxPar = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.numDeMetros)).BeginInit();
             this.SuspendLayout();
             // 
             // txtBoxRes
@@ -381,11 +408,300 @@
             this.btnRaizQuadrada.UseVisualStyleBackColor = false;
             this.btnRaizQuadrada.Click += new System.EventHandler(this.btnRaizQuadrada_Click);
             // 
+            // txtBoxV1
+            // 
+            this.txtBoxV1.Location = new System.Drawing.Point(475, 37);
+            this.txtBoxV1.Name = "txtBoxV1";
+            this.txtBoxV1.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxV1.TabIndex = 24;
+            this.txtBoxV1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txtBoxV2
+            // 
+            this.txtBoxV2.Location = new System.Drawing.Point(605, 37);
+            this.txtBoxV2.Name = "txtBoxV2";
+            this.txtBoxV2.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxV2.TabIndex = 25;
+            this.txtBoxV2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(581, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(18, 20);
+            this.label1.TabIndex = 26;
+            this.label1.Text = "+";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(711, 38);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(18, 20);
+            this.label2.TabIndex = 27;
+            this.label2.Text = "=";
+            // 
+            // txtBoxV3
+            // 
+            this.txtBoxV3.BackColor = System.Drawing.Color.White;
+            this.txtBoxV3.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.txtBoxV3.Enabled = false;
+            this.txtBoxV3.Location = new System.Drawing.Point(735, 37);
+            this.txtBoxV3.Name = "txtBoxV3";
+            this.txtBoxV3.ReadOnly = true;
+            this.txtBoxV3.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxV3.TabIndex = 27;
+            this.txtBoxV3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // btnCalcV
+            // 
+            this.btnCalcV.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnCalcV.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCalcV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCalcV.ForeColor = System.Drawing.Color.Transparent;
+            this.btnCalcV.Location = new System.Drawing.Point(745, 196);
+            this.btnCalcV.Name = "btnCalcV";
+            this.btnCalcV.Size = new System.Drawing.Size(75, 23);
+            this.btnCalcV.TabIndex = 26;
+            this.btnCalcV.Text = "Calcular";
+            this.btnCalcV.UseVisualStyleBackColor = false;
+            this.btnCalcV.Click += new System.EventHandler(this.btnCalcV_Click);
+            // 
+            // txtBoxV4
+            // 
+            this.txtBoxV4.BackColor = System.Drawing.Color.White;
+            this.txtBoxV4.Enabled = false;
+            this.txtBoxV4.Location = new System.Drawing.Point(475, 104);
+            this.txtBoxV4.Name = "txtBoxV4";
+            this.txtBoxV4.ReadOnly = true;
+            this.txtBoxV4.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxV4.TabIndex = 28;
+            this.txtBoxV4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txtBoxV5
+            // 
+            this.txtBoxV5.BackColor = System.Drawing.Color.White;
+            this.txtBoxV5.Enabled = false;
+            this.txtBoxV5.Location = new System.Drawing.Point(605, 104);
+            this.txtBoxV5.Name = "txtBoxV5";
+            this.txtBoxV5.ReadOnly = true;
+            this.txtBoxV5.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxV5.TabIndex = 29;
+            this.txtBoxV5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(581, 104);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(14, 20);
+            this.label3.TabIndex = 32;
+            this.label3.Text = "-";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(711, 104);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(18, 20);
+            this.label4.TabIndex = 33;
+            this.label4.Text = "=";
+            // 
+            // txtBoxV6
+            // 
+            this.txtBoxV6.BackColor = System.Drawing.Color.White;
+            this.txtBoxV6.Enabled = false;
+            this.txtBoxV6.Location = new System.Drawing.Point(735, 104);
+            this.txtBoxV6.Name = "txtBoxV6";
+            this.txtBoxV6.ReadOnly = true;
+            this.txtBoxV6.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxV6.TabIndex = 30;
+            this.txtBoxV6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txtBoxV9
+            // 
+            this.txtBoxV9.BackColor = System.Drawing.Color.White;
+            this.txtBoxV9.Enabled = false;
+            this.txtBoxV9.Location = new System.Drawing.Point(735, 170);
+            this.txtBoxV9.Name = "txtBoxV9";
+            this.txtBoxV9.ReadOnly = true;
+            this.txtBoxV9.Size = new System.Drawing.Size(97, 20);
+            this.txtBoxV9.TabIndex = 33;
+            this.txtBoxV9.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(711, 170);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(18, 20);
+            this.label5.TabIndex = 38;
+            this.label5.Text = "=";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(581, 170);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(15, 20);
+            this.label6.TabIndex = 37;
+            this.label6.Text = "*";
+            // 
+            // txtBoxV8
+            // 
+            this.txtBoxV8.BackColor = System.Drawing.Color.White;
+            this.txtBoxV8.Enabled = false;
+            this.txtBoxV8.Location = new System.Drawing.Point(605, 170);
+            this.txtBoxV8.Name = "txtBoxV8";
+            this.txtBoxV8.ReadOnly = true;
+            this.txtBoxV8.Size = new System.Drawing.Size(97, 20);
+            this.txtBoxV8.TabIndex = 32;
+            this.txtBoxV8.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txtBoxV7
+            // 
+            this.txtBoxV7.BackColor = System.Drawing.Color.White;
+            this.txtBoxV7.Enabled = false;
+            this.txtBoxV7.Location = new System.Drawing.Point(475, 170);
+            this.txtBoxV7.Name = "txtBoxV7";
+            this.txtBoxV7.ReadOnly = true;
+            this.txtBoxV7.Size = new System.Drawing.Size(97, 20);
+            this.txtBoxV7.TabIndex = 31;
+            this.txtBoxV7.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(472, 240);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(280, 13);
+            this.label7.TabIndex = 40;
+            this.label7.Text = "Digite o valor do M do raio e descubra sua circunferência:";
+            // 
+            // numDeMetros
+            // 
+            this.numDeMetros.Location = new System.Drawing.Point(475, 257);
+            this.numDeMetros.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numDeMetros.Name = "numDeMetros";
+            this.numDeMetros.Size = new System.Drawing.Size(47, 20);
+            this.numDeMetros.TabIndex = 41;
+            this.numDeMetros.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // labelCircunferencia
+            // 
+            this.labelCircunferencia.AutoSize = true;
+            this.labelCircunferencia.Location = new System.Drawing.Point(766, 240);
+            this.labelCircunferencia.Name = "labelCircunferencia";
+            this.labelCircunferencia.Size = new System.Drawing.Size(0, 13);
+            this.labelCircunferencia.TabIndex = 42;
+            // 
+            // btnCalcCircunferencia
+            // 
+            this.btnCalcCircunferencia.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnCalcCircunferencia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCalcCircunferencia.ForeColor = System.Drawing.Color.Transparent;
+            this.btnCalcCircunferencia.Location = new System.Drawing.Point(475, 283);
+            this.btnCalcCircunferencia.Name = "btnCalcCircunferencia";
+            this.btnCalcCircunferencia.Size = new System.Drawing.Size(75, 23);
+            this.btnCalcCircunferencia.TabIndex = 43;
+            this.btnCalcCircunferencia.Text = "Calcular";
+            this.btnCalcCircunferencia.UseVisualStyleBackColor = false;
+            this.btnCalcCircunferencia.Click += new System.EventHandler(this.btnCalcCircunferencia_Click);
+            // 
+            // par1
+            // 
+            this.par1.Location = new System.Drawing.Point(475, 331);
+            this.par1.Name = "par1";
+            this.par1.Size = new System.Drawing.Size(70, 20);
+            this.par1.TabIndex = 44;
+            // 
+            // par2
+            // 
+            this.par2.Location = new System.Drawing.Point(573, 331);
+            this.par2.Name = "par2";
+            this.par2.Size = new System.Drawing.Size(70, 20);
+            this.par2.TabIndex = 45;
+            // 
+            // par3
+            // 
+            this.par3.Location = new System.Drawing.Point(668, 331);
+            this.par3.Name = "par3";
+            this.par3.Size = new System.Drawing.Size(70, 20);
+            this.par3.TabIndex = 46;
+            // 
+            // par4
+            // 
+            this.par4.Location = new System.Drawing.Point(762, 331);
+            this.par4.Name = "par4";
+            this.par4.Size = new System.Drawing.Size(70, 20);
+            this.par4.TabIndex = 47;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.ForestGreen;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.Transparent;
+            this.button1.Location = new System.Drawing.Point(592, 357);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(137, 23);
+            this.button1.TabIndex = 48;
+            this.button1.Text = "Qual número é par ?";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // textBoxPar
+            // 
+            this.textBoxPar.Location = new System.Drawing.Point(605, 386);
+            this.textBoxPar.Name = "textBoxPar";
+            this.textBoxPar.Size = new System.Drawing.Size(100, 20);
+            this.textBoxPar.TabIndex = 49;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(357, 460);
+            this.ClientSize = new System.Drawing.Size(943, 433);
+            this.Controls.Add(this.textBoxPar);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.par4);
+            this.Controls.Add(this.par3);
+            this.Controls.Add(this.par2);
+            this.Controls.Add(this.par1);
+            this.Controls.Add(this.btnCalcCircunferencia);
+            this.Controls.Add(this.labelCircunferencia);
+            this.Controls.Add(this.numDeMetros);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtBoxV9);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.txtBoxV8);
+            this.Controls.Add(this.txtBoxV7);
+            this.Controls.Add(this.txtBoxV6);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtBoxV5);
+            this.Controls.Add(this.txtBoxV4);
+            this.Controls.Add(this.btnCalcV);
+            this.Controls.Add(this.txtBoxV3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtBoxV2);
+            this.Controls.Add(this.txtBoxV1);
             this.Controls.Add(this.btnRaizQuadrada);
             this.Controls.Add(this.btnExponenciacao);
             this.Controls.Add(this.btnModulo);
@@ -412,6 +728,7 @@
             this.Controls.Add(this.txtBoxRes);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.numDeMetros)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -443,6 +760,32 @@
         private System.Windows.Forms.Button btnModulo;
         private System.Windows.Forms.Button btnExponenciacao;
         private System.Windows.Forms.Button btnRaizQuadrada;
+        private System.Windows.Forms.TextBox txtBoxV1;
+        private System.Windows.Forms.TextBox txtBoxV2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtBoxV3;
+        private System.Windows.Forms.Button btnCalcV;
+        private System.Windows.Forms.TextBox txtBoxV4;
+        private System.Windows.Forms.TextBox txtBoxV5;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtBoxV6;
+        private System.Windows.Forms.TextBox txtBoxV9;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtBoxV8;
+        private System.Windows.Forms.TextBox txtBoxV7;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.NumericUpDown numDeMetros;
+        private System.Windows.Forms.Label labelCircunferencia;
+        private System.Windows.Forms.Button btnCalcCircunferencia;
+        private System.Windows.Forms.TextBox par1;
+        private System.Windows.Forms.TextBox par2;
+        private System.Windows.Forms.TextBox par3;
+        private System.Windows.Forms.TextBox par4;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBoxPar;
     }
 }
 

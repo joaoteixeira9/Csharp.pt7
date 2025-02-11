@@ -251,5 +251,47 @@ namespace Calculadora
             }
             
         }
+
+        private void btnCalcV_Click(object sender, EventArgs e)
+        {
+            if(txtBoxV1.Text == "" || txtBoxV2.Text == "")
+            {
+                MessageBox.Show("Digite um número para realizar a soma!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtBoxV1.Focus();
+            }
+            else if(txtBoxV1.Text != "" &&  txtBoxV2.Text != "")
+            {
+                decimal V1 = decimal.Parse(txtBoxV1.Text, CultureInfo.InvariantCulture);
+                decimal V2 = decimal.Parse(txtBoxV2.Text, CultureInfo.InvariantCulture);
+                txtBoxV3.Text = Convert.ToString(V1 + V2);
+                txtBoxV4.Text = txtBoxV3.Text;
+                txtBoxV5.Text = Convert.ToString(V2);
+                txtBoxV6.Text = Convert.ToString(Convert.ToDecimal(txtBoxV3.Text) - V2);
+                txtBoxV7.Text = Convert.ToString(V1);
+                txtBoxV8.Text = txtBoxV6.Text;
+                txtBoxV9.Text = Convert.ToString(V1 * Convert.ToDecimal(txtBoxV8.Text));
+            }
+        }
+
+        private void btnCalcCircunferencia_Click(object sender, EventArgs e)
+        {
+            decimal metros = numDeMetros.Value;
+            decimal pi = (decimal)Math.PI;
+            decimal circunferencia = 2 * pi * metros;
+            labelCircunferencia.Text = "Circunferência: " + circunferencia.ToString("F2");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            decimal p1 = decimal.Parse(par1.Text, CultureInfo.InvariantCulture);
+            decimal p2 = decimal.Parse(par2.Text, CultureInfo.InvariantCulture);
+            decimal p3 = decimal.Parse(par3.Text, CultureInfo.InvariantCulture);
+            decimal p4 = decimal.Parse(par4.Text, CultureInfo.InvariantCulture);
+
+            if (p1 % 2 == 0) textBoxPar.Text += Convert.ToString(p1);
+            if (p2 % 2 == 0) textBoxPar.Text += Convert.ToString(p2);
+            if (p3 % 2 == 0) textBoxPar.Text += Convert.ToString(p3);
+            if (p4 % 2 == 0) textBoxPar.Text += Convert.ToString(p4);
+        }
     }
 }
